@@ -1,12 +1,67 @@
-  
-
 .center{
   margin-left: auto;
   margin-right: auto;
+}
+
+.divOzellik1{
+  width: 350px;
+  height: 1000px;
+  background-color: antiquewhite;
+  float: left;
+}
+.divOzellik2{
+  width: 1000px;
+  height: 500px;
+  text-align: center;
+  float: right;
   
 }
 
 table,tr,td{
-  border: 2px solid;
+  border: 5px solid ;
   overflow-wrap: break-word;
+  color: lightsalmon;    
+}
+
+h1{
+  color:saddlebrown;
+  text-align: center;
+  border: 5px solid chocolate;
+  font-family: "Courier New"
+}
+h2{
+  font-size: 20px;
+  color:saddlebrown;
+  text-align: center;
+  border: 1px solid chocolate;
+  font-family: "Courier New"
+}
+
+h3{
+  text-align: center;
+  color:tomato;
+  font-family: "Courier New"
+  
+}
+h4{
+  font-size: 20px;
+  color:black;
+  text-align: center;
+  border: 1px solid chocolate;
+  font-family: "Courier New"
+  
+
+}
+strong{
+  font-size: 40px;
+  text-align: left;
+  color:brown;
+  font-family: "Courier New"
+  
+}
+
+body{
+  background: url("../images/photo.png"); 
+  background-repeat: no-repeat;
+  background-size: 1540px 900px;
 }
