@@ -3,32 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emirhan Aydın</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
+<link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+<link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <div class="divOzellik1">
-        <tr>
-            <td colspan="3"><img src="images/emirhan.png" alt="emirhanaydinPhoto" style="width: 15vw;"></td>
-        </tr>
-        <tr>
-            <td><h1>Emirhan Aydın</h1></td>
-        </tr>
-        
-        <tr>
-            <td><a href="https://www.linkedin.com/in/emirhan-ayd%C4%B1n-1b0560235/"><img src="images/linkedin.png" alt="linkedinPhoto" width="40vw" height="40vw" style="margin-left: 0.8vw; margin-top: 2vh;"></a>
-                <a href="https://www.instagram.com/aydinnemo/"><img src="images/instagram.png" alt="instagramPhoto" width="40vw" height="40vw"></a>
-                <a href="https://github.com/emirhannaydin"><img src="images/GitHub-Mark.png" alt="githubPhoto" width="40vw" height="40vw"></a></td>
+    <header>
+        <nav id = "navbar">
+            <h1>Emirhan Aydın</h1>
+            <ul>
+                <li><a href="#home">Ana Sayfa</a></li>
+                <li><a href="#home">Hakkımda</a></li>
+                <li><a href="#egitim">Eğitim</a></li>
+                <li><a href="#yetenek">Yetenekler</a></li>
 
-            </td>
-        </tr>
-    </div>
-    <div class="divOzellik2">
-        <tr>
-            <td><h4>Merhaba, ben Emirhan. Marmara Üniversitesi Teknoloji Fakültesi Bilgisayar Mühendisliği Bölümü 3.sınıf öğrencisiyim. C, Java ve Python programlama dillerinde kendimi geliştirmekteyim. Öğrenmeyi ve kendini geliştirmeyi seven; insanlarla iletişimi güçlü olan ve liderlik özelliği taşıyan bir bilgisayar mühendisi adayıyım.</h4></td>
-        </tr>
-    </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section id = "home">
+        <img src="images/emirhan.png" alt="emirhanPhoto" width="300px">
+        <div class="name">
+            <h2>Emirhan Aydın</h2>
+            <p>Marmara Üniversitesi | Bilgisayar Mühendisliği </p>
+        </div>
+        <div class = "bilgi">
+            <h3>Merhaba, ben Emirhan. Marmara Üniversitesi Teknoloji Fakültesi Bilgisayar Mühendisliği Bölümü 3.sınıf öğrencisiyim. C, Java ve Python programlama dillerinde kendimi geliştirmekteyim. Öğrenmeyi ve kendini geliştirmeyi seven; insanlarla iletişimi güçlü olan ve liderlik özelliği taşıyan bir bilgisayar mühendisi adayıyım.</h3>
+            
+        </div>
+        
+        
+
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/aydinnemo/"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+
+            <li>
+                <a href="https://www.linkedin.com/in/emirhan-ayd%C4%B1n-1b0560235/"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+
+            <li>
+                <a href="https://github.com/emirhannaydin"><i class="fa-brands fa-github"></i></a>
+            </li>
+        </ul>
+        
+
+    </section>
+
+    <section id="egitim">
+        <h4>Eğitim</h4>
+        <div class="items">
+            <article class="item">
+                <i class="fa-solid fa-school"></i>
+                <h5>İstanbul Köy Hizmetleri Anadolu Lisesi</h5>
+                <p>Eylül 2015 - Haziran 2019 </p>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-school"></i>
+                <h5>Marmara Üniversitesi</h5>
+                <p>Eylül 2020 - Devam Ediyor (2024)</p>
+            </article>
+            
+        </div>
+    </section>
+
+    <section id="yetenek">
+        <h4>Yetenekler</h4>
+        <div class="items">
+            <article class="item">
+                <i class="fa-brands fa-java"></i>
+                <h5>JAVA</h5>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </article>
+            <article class="item">
+                <i class="fa-brands fa-python"></i>
+                <h5>Python</h5>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </article>
+            <article class="item">
+                <i class="fa-solid fa-database"></i>
+                <h5>SQL</h5>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </article>
+            <article class="item">
+                <i class="fa-brands fa-html5"></i>
+                <h5>HTML-CSS</h5>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+            </article>
+            
+        </div>
+
+    </section>
+    
+
+    <footer>
+        <p><i class="fa-solid fa-copyright"></i>  Tüm Hakları Saklıdır.</p>
+      </footer>
+
+   
 </body>
 </html>
