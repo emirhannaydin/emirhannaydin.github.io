@@ -29,6 +29,13 @@
             </ul>
         </nav>
     </header>
+    <div class="box" id="examples">
+        <h2 class="box-header">Lab Ödev Örnekleri</h2>
+        <button onclick="bildirim()">Bana Tıkla</button>
+        <button id="renk" onclick="renk()">Rengimi Değiştir</button>
+        <input type="text" id="input1" />
+        <button onclick="inputAl()">Yazdır</button>
+      </div>
 
     <section id = "home">
         <img src="images/emirhan.png" alt="emirhanPhoto" width="300px">
@@ -124,6 +131,26 @@
     <footer>
         <p><i class="fa-solid fa-copyright"></i>  Tüm Hakları Saklıdır.</p>
       </footer>
+      <script>
+
+      function bildirim() {
+        alert("Bana tıkladın!");
+      }
+      function renk() {
+        let btn = document.querySelector("#renk");
+        if (btn.style.color == "red") {
+          btn.style.color = "blue";
+        } else {
+          btn.style.color = "red";
+        }
+      }
+      function inputAl() {
+        let input = document.getElementById("input1").value;
+        console.log(input);
+        alert(input);
+      }
+    
+      </script>
 
    
 </body>
